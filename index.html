@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/brand1.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/mediaqueries.css">
+    <script src="https://kit.fontawesome.com/6c070c2186.js" crossorigin="anonymous"></script>
+    <title>SNKRHD©</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <img src="assets/img/brand1.png" alt="img-logo" class="logo">
+
+        <nav class="navbar">
+            
+            <i class="fa-solid fa-bars-staggered menu-label"></i>
+            
+            <ul class="navbar-list">
+                <li><a class="nav__no-responsive" href="#productos">Productos</a></li>
+                <li><a href="#about">Beneficios</a></li>
+                <li><a href="#packs">Colaboraciones</a></li>
+                <li><a href="paginas/login.html">Inicia sesión</a></li>
+                <li><a href="paginas/signup.html">Regístrate</a></li>
+            </ul>
+
+            <div class="cart-label">
+                
+                <i class="fa-solid fa-cart-shopping cart-icon"><span class="cart-bubble">0</span></i>
+            </div>
+
+            <div class="cart">
+
+                <h2>Carrito</h2>
+
+                <div class="cart-container">
+                    
+                </div>
+
+
+                <div class="cart-bottom">
+
+                    <div class="cart-total">
+                        <p>Total:</p>
+                        <span class="total">0.00</span>
+                    </div>
+
+                    <div class="cart-buy">
+                        <button class="btn-buy">Comprar</button>
+                        <button class="btn-delete">Vaciar carrito</button>
+                    </div>
+
+                </div>
+                
+            </div> 
+
+                <div class="overlay"></div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- MAIN -->
+
+    <main id="main">
+        <div class="info__contenedor">
+            <div class="main__info">
+                <h1 class="main__info__h1">Descubrí el mundo de los Sneakers, Descubrí <span>SNKRHD</span></h1>
+                <p class="main__info__p">
+                    Creada por Sneaker Heads, para Sneaker Heads.
+                </p>
+            </div>
+        </div>
+        <i class="fa-solid fa-chevron-down"></i>
+    </main>
+
+    <!-- ABOUT US -->
+
+    <section id="about">
+
+        <div class="beneficios__contenedor">
+
+            <div class="beneficios__cards">
+                <i class="fa-solid fa-percent"></i>
+                <h4 class="beneficios__h4">Starter</h4>
+                <p class="beneficios__p">Utilizando el codigo "Starter" accedes a un 20% en tu primer compra.</p>
+            </div>
+
+            <div class="beneficios__cards">
+                <i class="fa-solid fa-money-bill-transfer"></i>
+                <h4 class="beneficios__h4">Transferencias seguras</h4>
+                <p class="beneficios__p">Las transferencias de dinero estan resguardadas por Seguridad SSL.</p>
+            </div>
+            
+            <div class="beneficios__cards">
+                <i class="fa-solid fa-user-plus"></i>
+                <h4 class="beneficios__h4">Suma puntos</h4>
+                <p class="beneficios__p">Compra, gana puntos y canjealos por increíbles descuentos</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TOTAL DE PRODUCTOS-->
+
+    <section id="total_zapas">
+
+        <h3 class="clasicos__h3">Productos</h3>
+
+        <div class="marcas__container">
+            <button class="marca">Todas</button>
+            <button class="marca" data-marca="Adidas">Adidas</button>
+            <button class="marca" data-marca="Nike">Nike</button>
+            <button class="marca" data-marca="Jordan">Jordan</button>
+            <button class="marca" data-marca="Puma">Puma</button>
+            <button class="marca" data-marca="Converse">Converse</button>
+            <button class="marca" data-marca="Yeezy">Yeezy</button>
+            <button class="marca" data-marca="Vans">Vans</button>
+        </div>
+
+        <div class="card-zapas__contenedor">
+
+        
+        </div>
+
+        <div class="btn__container">
+            <button class="btn-load">Ver más</button>
+        </div>
+
+        
+    </section>
+
+
+    <!-- PACKS -->
+
+    <section id="packs">
+
+        <h3 class="packs__titulo">Colaboraciones</h3>
+
+        <div class="packs__contenedor">
+
+            <div class="packs__contenedor-info">
+                <h4 class="packs__contenedor-h4">Adidas x Dragon Ball Z</h4>
+                <ul class="packs__contenedor-ul">
+                    <li>Adidas ZX 500 <span>"Son Goku"</span></li>
+                    <li>Adidas Ultra Tech <span>"Vegeta"</span></li>
+                    <li>Adidas Prophere <span>"Cell"</span></li>
+                    <li>Adidas EQT <span>"Shen Long"</span></li>
+                    <li>Adidas Young-1 <span>"Freezer"</span></li>
+                    <li>Adidas Deerupt <span>"Son Gohan"</span></li>
+                    <li>Adidas EQT <span>"Super Shen Long"</span></li>
+                    <li>Adidas Kamanda <span>"Majin Boo"</span></li>
+                </ul>
+                <button class="card-zapas__btn firstBtn" data-name="verMas__first">Ver más</button>
+            </div>
+
+            <div class="packs__contenedor-imgs firstImgContainer">
+                <img class="packs__img" src="assets/img/goku.png" alt="goku">
+                <img class="packs__img" src="assets/img/vegeta.png" alt="vegeta">
+                <img class="packs__img" src="assets/img/cell.png" alt="cell">
+                <img class="packs__img" src="assets/img/shenlong.png" alt="shenlong">
+                <img class="packs__img" src="assets/img/freezer.png" alt="friser zZzZZ">
+                <img class="packs__img" src="assets/img/gohan.png" alt="gohan">
+                <img class="packs__img" src="assets/img/super-shenlong.png" alt="super dragon xd">
+                <img class="packs__img" src="assets/img/majinboo.png" alt="majinboo">
+            </div>
+
+            
+        </div>
+
+        <div class="packs__contenedor medio">
+
+            <div class="packs__contenedor-imgs p-c-img2 secondImgContainer">
+                <img class="packs__img" src="assets/img/off1.png" alt="goku">
+                <img class="packs__img" src="assets/img/off2.png" alt="vegeta">
+                <img class="packs__img" src="assets/img/off3.png" alt="cell">
+                <img class="packs__img" src="assets/img/off4.png" alt="shenlong">
+                <img class="packs__img" src="assets/img/off5.png" alt="friser zZzZZ">
+                <img class="packs__img" src="assets/img/off6.png" alt="gohan">
+                <img class="packs__img" src="assets/img/off7.png" alt="super dragon xd">
+                <img class="packs__img" src="assets/img/off8.png" alt="majinboo">
+            </div>
+
+            <div class="packs__contenedor-info p-c-info2">
+                <h4 class="packs__contenedor-h4">Nike x OFF-WHITE</h4>
+                <ul class="packs__contenedor-ul">
+                    <li>Air Max 90 x OFF-WHITE <span>"Desert Ore"</span></li>
+                    <li>SB Dunk x OFF-WHITE <span>"University Gold""</span></li>
+                    <li>SB Dunk x OFF-WHITE <span>"University Red"</span></li>
+                    <li>Blazer Mid x OFF-WHITE <span>"Yin yon Yuan"</span></li>
+                    <li>Air Jordan 4 x OFF-WHITE <span>"Sail"</span></li>
+                    <li>Air Jordan 1 <span>"Chicago"</span> x OFF-WHITE</li>
+                    <li>Air Jordan 1 <span>"University"</span> x OFF-WHITE</li>
+                    <li>Air Max 97 x OFF-WHITE <span>"Menta"</span></li>
+                </ul>
+                <button class="card-zapas__btn secondBtn" data-name="verMas__second">Ver más</button>
+            </div>
+
+        </div>
+
+        <div class="packs__contenedor">
+
+            <div class="packs__contenedor-info">
+                <h4 class="packs__contenedor-h4">Vans x The Simpsons</h4>
+                <ul class="packs__contenedor-ul">
+                    <li>Vans SK8 Low <span>"El Barto"</span></li>
+                    <li>Vans Old Skool <span>"Bouvier Sisters"</span></li>
+                    <li>Vans Slip-On <span>"Collage"</span></li>
+                    <li>Vans Old Skool <span>"Moe's"</span></li>
+                    <li>Vans Sk8 Hi <span>"Family Portrait"</span></li>
+                    <li>Vans Era <span>"Scratchy"</span></li>
+                    <li>Vans Sk8 Hi <span>"Lisa"</span></li>
+                    <li>Vans Slip-On V <span>"Fish Blinky"</span></li>
+                </ul>
+                <button class="card-zapas__btn thirdBtn" data-name="verMas__third">Ver más</button>
+            </div>
+
+            <div class="packs__contenedor-imgs thirdImgContainer">
+                <img class="packs__img" src="assets/img/vans4.png" alt="goku">
+                <img class="packs__img" src="assets/img/vans5.png" alt="vegeta">
+                <img class="packs__img" src="assets/img/vans6.png" alt="cell">
+                <img class="packs__img" src="assets/img/vans7.png" alt="shenlong">
+                <img class="packs__img" src="assets/img/vans8.png" alt="friser zZzZZ">
+                <img class="packs__img" src="assets/img/vans9.png" alt="gohan">
+                <img class="packs__img" src="assets/img/vans10.png" alt="super dragon xd">
+                <img class="packs__img" src="assets/img/vans11.png" alt="majinboo">
+            </div>
+
+        </div>
+
+    </section>
+
+   
+
+    <!-- CONTACTO -->
+
+    <section id="contacto">
+
+        <div class="contenedor__contacto-info">
+
+            <div class="contacto-info">
+                <div class="contacto-info__title">
+                    <p>¿PREGUNTAS?</p>
+                    <p>¿COMENTARIOS?</p>
+                    <p>NOS ENCANTARÍA SABER SU OPINIÓN.</p>
+                </div>
+                
+                <p class="contacto-info__p">En SNKRHD© estamos comprometidos con proveer el mejor servicio a nuestros clientes. ¿Has tenido algún inconveniente en nuestra página? Háznoslo saber.</p>
+                
+                <ul class="contacto-info__ul">
+                    <li>Podes contactarte:</li>
+                    <li>SNKRHD@gmail.com</li>
+                    <li>03-03-456</li>
+                    <li>Atención al cliente</li>
+                </ul>
+                <ul class="contacto-social__ul">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer__contenedor">
+            <img src="assets/img/brand5.gif" alt="brand4">
+            <ul class="footer__ul">
+                <li>Soporte</li>
+                <li>Atención al cliente</li>
+                <li>Preguntas Frecuentes</li>
+            </ul>
+            <p>SNKRHD© 2022 Todos los derechos reservados</p>
+        </div>
+
+    </footer>
+
+    <div class="add-modal"></div>
+
+    <script src="assets/data.js"></script>
+    <script src="assets/main.js"></script>
+    
+</body>
+</html>
+
+<!-- https://github.com/alejo004/SNKRHD.git -->
