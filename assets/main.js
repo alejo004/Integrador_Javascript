@@ -41,7 +41,7 @@ const renderProduct = (product) => {
                     <span class="card-zapas__span">$${precio}</span>
                     <p class="card-zapas__p-cuotas">6 cuotas de $${precio}</p>
                 </div>
-                <button class="card-zapas__btn btn-add" 
+                <button class=" btn-add" 
                 	data-id="${id}"
                 	data-nombre="${nombre}"
                 	data-precio="${precio}"

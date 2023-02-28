@@ -92,7 +92,7 @@ header {
 }
 
 .navbar-list a {
-    color: #000;
+    color: var(--beish);
     font-size: 16px;
     font-weight: 600;
 }
@@ -530,9 +530,15 @@ main i {
     text-align: center;
 }
 
-.t-unico {
-    background-color: #F17008 ;
-    color: #fff;;
+.btn-add {
+    width: 75%;
+    height: 26px;
+    border: none;
+    background-color: #6AB234;
+    color: #fff;
+    padding: 4px;
+    transition: all .5s;
+    cursor: pointer;
 }
 
 .card-zapas__span {
