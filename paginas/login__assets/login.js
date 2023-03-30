@@ -9,7 +9,7 @@ const checkMail = () => {
 	const emailValue = emailInput.value.trim()
 
 	if(isEmpty(emailValue)) {
-		showError(emailInput, "El mail no es valido")
+		showError(emailInput, "El mail es obligatorio")
 	} else if(!isEmailValid(emailValue)) {
 		showError(emailInput, "El email no es valido")
 	} else {
