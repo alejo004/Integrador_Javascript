@@ -6,6 +6,9 @@
     .signup__info {
         width: 100%;
     }
+    .signup__cont__info {
+        width: 70%;
+    }
 }
 
 
